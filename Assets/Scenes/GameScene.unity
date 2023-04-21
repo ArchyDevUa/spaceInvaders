@@ -205,6 +205,8 @@ GameObject:
   - component: {fileID: 383181656}
   - component: {fileID: 383181657}
   - component: {fileID: 383181658}
+  - component: {fileID: 383181659}
+  - component: {fileID: 383181660}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -351,6 +353,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9f40553a48c38f44b6faf09c0d183d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &383181659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383181651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fae6853a4ef7446ac2f62da51582dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 2708598583397607910, guid: 6398d43fe79ea0140913dc5530c646af, type: 3}
+--- !u!114 &383181660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383181651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0762a56cc44e2459614cc8acb72018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
+  healthTExt: {fileID: 1713527945}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,7 +784,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: X 3
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
